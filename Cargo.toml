@@ -1,0 +1,14 @@
+[package]
+name = "libralloc"
+version = "0.1.0"
+authors = ["Bobby Powers <bobbypowers@gmail.com>"]
+
+[lib]
+name = 'ralloc'
+test = true
+doctest = true
+doc = true
+bench = true
+crate-type = ["dylib"]
+
+[dependencies]
