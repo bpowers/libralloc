@@ -1,0 +1,14 @@
+[package]
+name = "internal_alloc"
+version = "0.1.0"
+authors = ["Bobby Powers <bobbypowers@gmail.com>"]
+
+[lib]
+name = 'internal_alloc'
+test = true
+doctest = true
+doc = true
+crate-type = ["rlib"]
+
+[dependencies]
+slabmalloc = { git = "https://github.com/bpowers/rust-slabmalloc" }
