@@ -12,4 +12,3 @@ bench = true
 crate-type = ["dylib"]
 
 [dependencies]
-internal_alloc = { path = "internal_alloc" }
