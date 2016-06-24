@@ -2,11 +2,9 @@
 #![feature(libc)]
 #![feature(link_args)]
 
-#![feature(alloc_jemalloc)]
-
 #![warn(unused_variables)]
 
-extern crate alloc_jemalloc;
+extern crate alloc_hoard;
 
 extern crate libc;
 

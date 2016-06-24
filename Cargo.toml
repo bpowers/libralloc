@@ -12,3 +12,4 @@ bench = true
 crate-type = ["dylib"]
 
 [dependencies]
+alloc_hoard = "0.2"
